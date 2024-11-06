@@ -1,0 +1,31 @@
+{
+  "name": "ʕ ᵔᴥᵔ ʔ HH20241106",
+  "description": "Meow meow meow",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16":"mi.png",
+    "32":"mi.png",
+    "48":"mi.png",
+    "128":"mi.png"
+  },
+  "web_accessible_resources": [{
+    "resources": ["mi.js"],
+    "matches": ["*://*/*"]
+  }],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.hh.ru/*"
+      ],
+      "js": ["contentScript.js"],
+      "css" : ["mi.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

@@ -1,0 +1,36 @@
+#HH20241106-log {
+    position: fixed;
+    z-index: 88888888;
+    left: 0;
+    top: 0;
+    padding: 10px 15px;
+    background-color: red;
+    color: #fff;
+    max-width: 350px;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+[data-hh20241106-finded=true] [data-qa*="vacancy-serp__vacancy"] {
+    background-color: rgba(255, 0, 0, .44);
+}
+[data-hh20241106-finded=true] [data-qa*="vacancy-serp__vacancy"] [data-qa*="vacancy-serp__vacancy"] {
+    background-color: transparent;
+}
+
+.HH20241106-btn-added {
+    background-color: green;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 888888888888;
+    right: 0;
+    top: 88px;
+}
+[data-hh20241106-finded=true] .HH20241106-btn-added {
+    display: none;
+}
+[data-sentry-element="Element"]:has(.HH20241106-btn-added) {
+    position: relative;
+}
