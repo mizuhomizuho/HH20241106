@@ -6,8 +6,9 @@ CREATE TABLE `main` (
   `profile` varchar(100) DEFAULT NULL,
   `hh_id` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `main_profile_IDX` (`profile`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=67 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  KEY `main_profile_IDX` (`profile`) USING BTREE,
+  KEY `main_hh_id_IDX` (`hh_id`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=113 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
 
 ```js
