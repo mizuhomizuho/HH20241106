@@ -47,6 +47,9 @@
             'afterbegin',
             '<div>' + getCurrentDatetime() + ' - ' + msg + '</div>'
         )
+        if (logEl.childElementCount > 88) {
+            logEl.lastElementChild.remove()
+        }
     }
 
     const getHhIds = () => {
