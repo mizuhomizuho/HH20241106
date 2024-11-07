@@ -11,11 +11,11 @@ CREATE TABLE `main` (
 ```
 
 ```js
-localStorage.setItem('HH20241106-profile', 'xxxx00012')
-localStorage.setItem('HH20241106-uvicorn-port', '8009')
+localStorage.setItem('HH20241106-profile', '88888888')
+localStorage.setItem('HH20241106-uvicorn-port', '8888')
 ```
 
 ```bash
-uvicorn main:app --port 8009 --host 0.0.0.0 --reload
+uvicorn main:app --port 8888 --host 0.0.0.0 --reload
 ```
 
