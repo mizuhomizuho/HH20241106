@@ -16,6 +16,6 @@ localStorage.setItem('HH20241106-uvicorn-port', '8888')
 ```
 
 ```bash
-uvicorn main:app --port 8888 --host 0.0.0.0 --reload
+cd ~\PycharmProjects\HH20241106 && .venv\Scripts\activate && uvicorn main:app --port 8888 --host 0.0.0.0 --reload
 ```
 
