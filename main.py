@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pymysql.converters import escape_string
 
 
-allow_profiles: tuple[str] = ('88888888', )
+allow_profiles: tuple[str] = ('8888_8888', )
 
 
 def get_connection():

@@ -12,7 +12,8 @@ CREATE TABLE `main` (
 ```
 
 ```js
-localStorage.setItem('HH20241106-profile', '88888888')
+localStorage.setItem('HH20241106-profile', '8888_8888')
+// localStorage.setItem('HH20241106-profile', '88888888')
 localStorage.setItem('HH20241106-uvicorn-port', '8888')
 ```
 
